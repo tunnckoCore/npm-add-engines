@@ -45,6 +45,14 @@ add('~/foo/bar/dir', function cb (err, pkg) {
 * `[dir]` **{String|Function}**: optional, can be `cb`    
 * `<cb>` **{Function}**: required, callback function    
 
+## Related
+- [create-readdir-stream](https://www.npmjs.com/package/create-readdir-stream): Streaming `fs.readdir`, extensible with smart plugins. No recursion and no globs by… [more](https://github.com/tunnckocore/create-readdir-stream#readme) | [homepage](https://github.com/tunnckocore/create-readdir-stream#readme "Streaming `fs.readdir`, extensible with smart plugins. No recursion and no globs by default - [use][] plugins. Does not stat and doesn't read the filepaths - use plugins. It just push [vinyl][] files to stream. Follows signature and semantics of `fs.creat")
+- [function-arguments](https://www.npmjs.com/package/function-arguments): Get arguments of a function, useful for and used in dependency injectors… [more](https://github.com/tunnckocore/function-arguments#readme) | [homepage](https://github.com/tunnckocore/function-arguments#readme "Get arguments of a function, useful for and used in dependency injectors. Works for regular functions, generator functions and arrow functions.")
+- [gruu](https://www.npmjs.com/package/gruu):  | [homepage](https://github.com/tunnckoCore/gruu#readme)
+- [is-async-function](https://www.npmjs.com/package/is-async-function): Is function really asynchronous function? Trying to guess that based on check… [more](https://github.com/tunnckocore/is-async-function#readme) | [homepage](https://github.com/tunnckocore/is-async-function#readme "Is function really asynchronous function? Trying to guess that based on check if [common-callback-names][] exists as function arguments names or you can pass your custom.")
+- [minibase](https://www.npmjs.com/package/minibase): MiniBase is minimalist approach to Base - @node-base, the awesome framework. Foundation… [more](https://github.com/node-minibase/minibase#readme) | [homepage](https://github.com/node-minibase/minibase#readme "MiniBase is minimalist approach to Base - @node-base, the awesome framework. Foundation for building complex APIs with small units called plugins. Works well with most of the already existing [base][] plugins.")
+- [npm-pkgs](https://www.npmjs.com/package/npm-pkgs): List user npm packages from the [npmjs.com](http://npm.im)! | [homepage](https://github.com/tunnckoCore/npm-pkgs "List user npm packages from the [npmjs.com](http://npm.im)!")
+
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/npm-add-engines/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
@@ -52,6 +60,12 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 ## [Charlike Make Reagent](http://j.mp/1stW47C) [![new message to charlike][new-message-img]][new-message-url] [![freenode #charlike][freenode-img]][freenode-url]
 
 [![tunnckoCore.tk][author-www-img]][author-www-url] [![keybase tunnckoCore][keybase-img]][keybase-url] [![tunnckoCore npm][author-npm-img]][author-npm-url] [![tunnckoCore twitter][author-twitter-img]][author-twitter-url] [![tunnckoCore github][author-github-img]][author-github-url]
+
+[base]: https://github.com/node-base/base
+[common-callback-names]: https://github.com/tunnckocore/common-callback-names
+[load-pkg]: https://github.com/jonschlinkert/load-pkg
+[use]: https://github.com/jonschlinkert/use
+[vinyl]: https://github.com/gulpjs/vinyl
 
 [npmjs-url]: https://www.npmjs.com/package/npm-add-engines
 [npmjs-img]: https://img.shields.io/npm/v/npm-add-engines.svg?label=npm-add-engines
@@ -98,4 +112,3 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [new-message-url]: https://github.com/tunnckoCore/ama
 [new-message-img]: https://img.shields.io/badge/ask%20me-anything-green.svg
 
-[load-pkg]: https://github.com/jonschlinkert/load-pkg

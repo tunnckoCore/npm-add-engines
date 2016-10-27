@@ -59,8 +59,25 @@
     "tasks": [
       "readme"
     ],
+    "related": {
+      "list": [
+        "npm-pkgs",
+        "function-arguments",
+        "is-async-function",
+        "gruu",
+        "minibase",
+        "create-readdir-stream"
+      ]
+    },
     "lint": {
       "reflinks": true
-    }
+    },
+    "reflinks": [
+      "base",
+      "common-callback-names",
+      "load-pkg",
+      "use",
+      "vinyl"
+    ]
   }
 }
