@@ -46,7 +46,23 @@
     "index.js",
     "utils.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "add",
+    "addengines",
+    "cli",
+    "cwd",
+    "dir",
+    "engines",
+    "field",
+    "load",
+    "loadpkg",
+    "npm",
+    "package",
+    "pkg",
+    "util",
+    "utility",
+    "utils"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
