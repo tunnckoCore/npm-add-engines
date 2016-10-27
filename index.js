@@ -9,6 +9,32 @@
 
 var utils = require('./utils')
 
+/**
+ * > Update `package.json` file of `dir` or current
+ * working directory, using [load-pkg][] behind.
+ *
+ * **Example**
+ *
+ * ```js
+ * var add = require('npm-add-engines')
+ *
+ * add(function cb (err, pkg) {
+ *   console.log(err) // => if error
+ *   console.log(pkg.engines) // => { node: '>=4', npm: '>3' }
+ * })
+ *
+ * add('~/foo/bar/dir', function cb (err, pkg) {
+ *   console.log(err) // => if error
+ *   console.log(pkg.name) // => my-foo-pkg
+ *   console.log(pkg.engines) // => { node: '>=4', npm: '>3' }
+ * })
+ * ```
+ *
+ * @param  {String|Function}   `[dir]` optional, can be `cb`
+ * @param  {Function} `<cb>` required, callback function
+ * @api public
+ */
+
 module.exports = function npmAddEngines (dir, cb) {
   if (typeof dir === 'function') {
     cb = dir
