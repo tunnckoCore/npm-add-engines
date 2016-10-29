@@ -35,6 +35,11 @@ $ npm-add-engines
 ### [npmAddEngines](index.js#L38)
 > Update `package.json` file of `dir` or current working directory, using [load-pkg][] behind.
 
+**Params**
+
+* `[dir]` **{String|Function}**: optional, can be `cb`    
+* `<cb>` **{Function}**: required, callback function    
+
 **Example**
 
 ```js
@@ -51,11 +56,6 @@ add('~/foo/bar/dir', function cb (err, pkg) {
   console.log(pkg.engines) // => { node: '>=4', npm: '>3' }
 })
 ```
-
-**Params**
-
-* `[dir]` **{String|Function}**: optional, can be `cb`    
-* `<cb>` **{Function}**: required, callback function    
 
 ## Related
 - [create-readdir-stream](https://www.npmjs.com/package/create-readdir-stream): Streaming `fs.readdir`, extensible with smart plugins. No recursion and no… [more](https://github.com/tunnckocore/create-readdir-stream#readme) | [homepage](https://github.com/tunnckocore/create-readdir-stream#readme "Streaming `fs.readdir`, extensible with smart plugins. No recursion and no globs by default - [use][] plugins. Does not stat and doesn't read the filepaths - use plugins. It just push [vinyl][] files to stream. Follows signature and semantics of `fs.creat")
