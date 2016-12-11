@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/tunnckocore/npm-add-engines/compare/v1.0.4...v2.0.0) (2016-12-11)
+
+
+### Bug Fixes
+
+* **version:** fix npm version to >=2, instead of >=3 ([859d0ff](https://github.com/tunnckocore/npm-add-engines/commit/859d0ff))
+
+
+### BREAKING CHANGES
+
+* version: npm version should be >=2, not >=3
+
+
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/tunnckocore/npm-add-engines/compare/v1.0.3...v1.0.4) (2016-10-29)
 
