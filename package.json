@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Add engines field to your package.json file in current working directory or user-defined directory",
   "repository": "tunnckoCore/npm-add-engines",
-  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://i.am.charlike.online)",
   "precommit.silent": true,
   "main": "index.js",
   "license": "MIT",

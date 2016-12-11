@@ -1,7 +1,7 @@
 /*!
  * npm-add-engines <https://github.com/tunnckoCore/npm-add-engines>
  *
- * Copyright (c) 2016 Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)
+ * Copyright (c) Charlike Mike Reagent <@tunnckoCore> (http://i.am.charlike.online)
  * Released under the MIT license.
  */
 
