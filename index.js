@@ -52,7 +52,7 @@ module.exports = function npmAddEngines (dir, cb) {
     }
     pkg.engines = {}
     pkg.engines.node = '>=4'
-    pkg.engines.npm = '>=3'
+    pkg.engines.npm = '>=2'
     cb(null, pkg)
   }
 

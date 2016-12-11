@@ -40,7 +40,7 @@ test('should update if no engines field', function (done) {
   add(function (err, pkg) {
     test.ifError(err)
     test.strictEqual(pkg.engines.node, '>=4')
-    test.strictEqual(pkg.engines.npm, '>=3')
+    test.strictEqual(pkg.engines.npm, '>=2')
     done()
   })
 })
