@@ -16,17 +16,17 @@ var utils = require('./utils')
  * **Example**
  *
  * ```js
- * var add = require('npm-add-engines')
+ * const add = require('npm-add-engines')
  *
- * add(function cb (err, pkg) {
+ * add((err, pkg) => {
  *   console.log(err) // => if error
- *   console.log(pkg.engines) // => { node: '>=4', npm: '>3' }
+ *   console.log(pkg.engines) // => { node: '>=4', npm: '>=2' }
  * })
  *
- * add('~/foo/bar/dir', function cb (err, pkg) {
+ * add('~/foo/bar/dir', (err, pkg) => {
  *   console.log(err) // => if error
  *   console.log(pkg.name) // => my-foo-pkg
- *   console.log(pkg.engines) // => { node: '>=4', npm: '>3' }
+ *   console.log(pkg.engines) // => { node: '>=4', npm: '>=2' }
  * })
  * ```
  *

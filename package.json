@@ -70,7 +70,12 @@
   },
   "verb": {
     "run": true,
-    "toc": false,
+    "toc": {
+      "render": true,
+      "method": "preWrite",
+      "maxdepth": 3,
+      "footer": ""
+    },
     "layout": "empty",
     "tasks": [
       "readme"
@@ -83,7 +88,8 @@
         "gruu",
         "minibase",
         "create-readdir-stream"
-      ]
+      ],
+      "highlight": "github-clone-labels"
     },
     "lint": {
       "reflinks": true
@@ -93,7 +99,13 @@
       "common-callback-names",
       "load-pkg",
       "use",
-      "vinyl"
+      "vinyl",
+      "always-done",
+      "charlike",
+      "commitizen",
+      "standard-version",
+      "verb",
+      "verb-generate-readme"
     ]
   }
 }
